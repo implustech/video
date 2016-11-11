@@ -1,3 +1,4 @@
 /node_modules
 /thumbnail/*.jpeg
 /videos/*.mp4
+*/.DS_Store
