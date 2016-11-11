@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+	head
+		title video
+		meta(charset="utf-8")/
+	body
+		div
+			each video in videos
+				div
+					img(src="http://" + urlString + '/' + video + '.jpeg')
+					a(href="http://" + urlString + '/' + video + ".html") #{video.substring(0, video.length - 4)}
